@@ -4,7 +4,7 @@ class Fruit:
         self.color = color
         self.price = price
 
-    def display(self):
+    def namefruit(self):
         print(f"Tên: {self.name}")
         print(f"Màu sắc: {self.color}")
         print(f"Giá: {self.price} VNĐ")
@@ -15,6 +15,6 @@ fruit1 = Fruit("Táo", "Đỏ", 20000)
 fruit2 = Fruit("Chuối", "Vàng", 15000)
 
 # Hiển thị thông tin
-fruit1.display()
+fruit1.namefruit()
 print("----------")
-fruit2.display()
+fruit2.namefruit()
