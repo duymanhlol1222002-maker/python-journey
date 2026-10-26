@@ -5,16 +5,16 @@ class Fruit:
         self.price = price
 
     def display(self):
-        print(f"Ten: {self.name}")
-        print(f"Mau sac: {self.color}")
-        print(f"G ia: {self.price} VND")
+        print(f"Tên: {self.name}")
+        print(f"Màu sắc: {self.color}")
+        print(f"Giá: {self.price} VNĐ")
 
 
-# Tao object
-fruit1 = Fruit("Tao", "Do", 20000)
-fruit2 = Fruit("Chuoi", "Vang", 15000)
+# Tạo object
+fruit1 = Fruit("Táo", "Đỏ", 20000)
+fruit2 = Fruit("Chuối", "Vàng", 15000)
 
-# Hien thi thong tin
+# Hiển thị thông tin
 fruit1.display()
 print("----------")
 fruit2.display()
